@@ -3,7 +3,7 @@ package h02;
 import java.awt.*;
 import java.applet.*;
 
-public class Welkom extends Applet {
+public class h022 extends Applet {
 
 
     public void init() {
