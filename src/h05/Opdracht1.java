@@ -11,12 +11,12 @@ public class Opdracht1 extends Applet {
     int x;
     int cirkel;
 
-public void init () {
-    achtergrond = Color.magenta;
-    lijnen = Color.black;
-    y = 150;
-    x = 300;
-    cirkel = 150;
+    public void init () {
+        achtergrond = Color.magenta;
+        lijnen = Color.black;
+        y = 150;
+        x = 300;
+        cirkel = 150;
 
 }
 
