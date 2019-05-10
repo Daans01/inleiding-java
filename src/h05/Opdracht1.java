@@ -9,14 +9,12 @@ public class Opdracht1 extends Applet {
     Color lijnen;
     int y;
     int x;
-    int cirkel;
 
-    public void init () {
-        achtergrond = Color.magenta;
-        lijnen = Color.black;
-        y = 150;
-        x = 300;
-        cirkel = 150;
+public void init () {
+    achtergrond = Color.magenta;
+    lijnen = Color.black;
+    y = 150;
+    x = 200;
 
 }
 
@@ -26,7 +24,7 @@ public class Opdracht1 extends Applet {
 
         g.drawString("Taartpunt met ovaal eromheen", 840, 240);
         g.drawString("Cirkel", 890, 425);
-        g.drawArc(830,255, cirkel, y, 200, 360);
+        g.drawArc(830,255, x, y, 200, 360);
 
         g.drawString("Gevulde ovaal", 525, 425);
         g.drawString("Gevulde rechthoek met ovaal", 475, 235);
@@ -57,7 +55,6 @@ public class Opdracht1 extends Applet {
 
         g.setColor(lijnen);
         g.drawArc(750, 70, x, y, 200, 360);
-
         g.setColor(achtergrond);
         g.fillArc(750, 70, x, y, 0, 45);
     }
