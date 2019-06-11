@@ -5,17 +5,16 @@ import java.applet.*;
 
 public class Opdracht2 extends Applet {
 
-    int seconden, minuten, uren, dagen;
-    double uitkomst, uitkomst2, uitkomst3;
+    int minuten, uren, dagen, uitkomst, uitkomst2, uitkomst3;
+
 
     public void init() {
-        seconden = 60;
         minuten = 60;
-        uren = 24;
-        dagen = 364;
-        uitkomst = seconden * minuten;
-        uitkomst2 = seconden * minuten * uren;
-        uitkomst3 = seconden * minuten * uren * dagen;
+        uren = 3600;
+        dagen = 86400;
+        uitkomst = minuten * 60;
+        uitkomst2 = uren * 24;
+        uitkomst3 = dagen * 365;
 
     }
 
